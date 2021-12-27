@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(22, 19, 19);
+    padding: 80px;
+}
+#bg{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(51, 51, 56);
+    border-radius: 40px;
+    border: 7px solid grey;
+    overflow: hidden;
+    position: relative;
+    background-image: url("img5.jpg");
+    background-size: cover;
+}
+#rgt{
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top:6%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+#one{
+    position: absolute;
+    left:10%;
+    top:6%;
+    font-size: 40px;
+    font-family: Allura;
+    
+
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 231, 231);
+    font-size: 30px;
+}
+
+#text{
+    height: 50%;
+    width: 40%;
+    /* background-color: brown; */
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 7px;
+    color:yellow;
+    font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    
+}
+h5{
+    margin-top: 8px;
+    
+    font-weight: 100;
+    color:white;
+    font-family: ogg;
+}
+#cylinder{
+    position: absolute;
+    bottom: 5%;
+      width: 25vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 100px;
+    font-family: Allura;
+
+}
+.circles{
+    border-radius: 50%;
+    border: 3.5px solid yellow;
+    position: absolute;
+    z-index: 9999;
+    
+
+}
+#bg #circle{
+    height: 300px;
+    width: 300px;
+    top:-23%;
+    left:-12%;
+    
+}
+#sec{
+    height: 150px;
+    width: 150px;
+    top:17%;
+    left:69%;
+    
+
+}
+#three{
+    height: 50px;
+    width: 50px;
+    top:57%;
+    right: 2%;
+
+}
+#four{
+    height: 70px;
+    width: 70px;
+    top:57%;
+    left:49%;
+    
+
+}
+#five{
+    height: 30px;
+    width: 30px;
+    bottom: 3%;
+    border: 2px solid yellow;
+    left:5%;
+    
+
+}
+#six{
+    height: 10px;
+    width: 10px;
+    top:87%;
+    left:69%;
+    border: 1px solid yellow;
+    
+
+}
